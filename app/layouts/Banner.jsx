@@ -49,7 +49,6 @@ const Banner = () => {
                   decimals={1}
                 />k
               </h3>
-
               <p className="text-sm opacity-80">Happy clients worldwide</p>
             </div>
           </div>
