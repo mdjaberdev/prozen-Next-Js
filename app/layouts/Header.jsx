@@ -7,6 +7,7 @@ import { IoMail } from "react-icons/io5";
 import Image from 'next/image';
 import Link from 'next/link';
 import { IoMdArrowDropdown } from "react-icons/io";
+import Button from '../[components]/Button';
 
 const Header = () => {
   return (
@@ -38,7 +39,7 @@ const Header = () => {
         </Flex>
         {/* Herder  */}
         <div className="bg-blue-500 mt-5">
-          <Flex>
+          <Flex className={"justify-between"}>
             {/* Logo & Menu Flex  */}
             <div className="flex items-center gap-x-15">
               {/* Logo */}
@@ -81,6 +82,7 @@ const Header = () => {
                 </ul>
               </nav>
             </div>
+            <Button btnTxt={"lets get in touch"} />
           </Flex>
         </div>
       </Container>
