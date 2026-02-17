@@ -11,7 +11,7 @@ import Button from '../[components]/Button';
 
 const Header = () => {
   return (
-    <div className="bg-[#063231]">
+    <div className="fixed  z-50 w-full font-poppins ">
       {/* HeaderTop  */}
       <Container>
         <Flex className={"py-2 justify-between text-[18px]"}>
@@ -25,20 +25,20 @@ const Header = () => {
           <div className="flex gap-x-17.75">
             {/* Phone  */}
             <div className="">
-              <p className="text-white flex items-center gap-x-2">
+              <p className="text-white  flex items-center gap-x-2">
                 <FaPhone /> 2774 518-564-3200
               </p>
             </div>
             {/* Mail  */}
             <div className="">
-              <p className="text-white flex items-center gap-x-2">
+              <p className="text-white  flex items-center gap-x-2">
                 <IoMail /> hello@example.com
               </p>
             </div>
           </div>
         </Flex>
         {/* Herder  */}
-        <div className="bg-blue-500 mt-5">
+        <div className="bg-white rounded-[20px] mt-5 p-3.75">
           <Flex className={"justify-between"}>
             {/* Logo & Menu Flex  */}
             <div className="flex items-center gap-x-15">
@@ -53,7 +53,7 @@ const Header = () => {
               </div>
               {/* Menu */}
               <nav>
-                <ul className="flex items-center gap-x-7.5 text-[#063231] text-base uppercase font-semibold">
+                <ul className="flex items-center font-poppins gap-x-7.5 text-[#063231] text-base uppercase font-semibold">
                   <li>
                     <Link href={"/"} className="flex items-center">
                       Home <IoMdArrowDropdown />
