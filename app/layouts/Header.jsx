@@ -11,7 +11,7 @@ import Button from "../[components]/Button";
 
 const Header = () => {
   return (
-    <div className="fixed z-50 w-full">
+    <div className="fixed font-poppins z-50 w-full">
       {/* HeaderTop  */}
       <Container>
         <Flex className={"py-2 justify-between text-[18px]"}>
