@@ -13,7 +13,7 @@ const Banner = () => {
       <Container>
         <Flex className={"justify-between"}>
           <div className="">
-            <h1 className="text-white text-[70px] uppercase font-semibold w-130 leading-20">
+            <h1 className="text-white text-[70px] uppercase font-semibold font-poppins w-130 leading-20">
               Innovative <span className="text-[#C3DF94]">business</span>{" "}
               solutions for everyone
             </h1>

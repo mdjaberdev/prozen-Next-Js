@@ -1,24 +1,23 @@
-import React from 'react'
-import Container from '../[components]/Container'
-import Flex from '../[components]/Flex'
+import React from "react";
+import Container from "../[components]/Container";
+import Flex from "../[components]/Flex";
 import { FaLocationDot } from "react-icons/fa6";
 import { FaPhone } from "react-icons/fa";
 import { IoMail } from "react-icons/io5";
-import Image from 'next/image';
-import Link from 'next/link';
+import Image from "next/image";
+import Link from "next/link";
 import { IoMdArrowDropdown } from "react-icons/io";
-import Button from '../[components]/Button';
-
+import Button from "../[components]/Button";
 
 const Header = () => {
   return (
-    <div className="fixed  z-50 w-full font-poppins ">
+    <div className="fixed z-50 w-full">
       {/* HeaderTop  */}
       <Container>
         <Flex className={"py-2 justify-between text-[18px]"}>
           {/* Location  */}
           <div className="">
-            <p className="text-white flex items-center gap-x-2">
+            <p className="text-white flex items-center   gap-x-2">
               <FaLocationDot /> 2774 Oak Drive, Plattsburgh, New York
             </p>
           </div>
@@ -26,7 +25,7 @@ const Header = () => {
           <div className="flex gap-x-17.75">
             {/* Phone  */}
             <div className="">
-              <p className="text-white  flex items-center gap-x-2">
+              <p className="text-white font-poppins flex items-center gap-x-2">
                 <FaPhone /> 2774 518-564-3200
               </p>
             </div>
@@ -54,7 +53,7 @@ const Header = () => {
               </div>
               {/* Menu */}
               <nav>
-                <ul className="flex items-center font-poppins gap-x-7.5 text-[#063231] text-base uppercase font-semibold">
+                <ul className="flex items-center gap-x-7.5 text-[#063231] text-base uppercase font-semibold">
                   <li>
                     <Link href={"/"} className="flex items-center">
                       Home <IoMdArrowDropdown />
@@ -89,7 +88,6 @@ const Header = () => {
       </Container>
     </div>
   );
-}
+};
 
-export default Header
-
+export default Header;
