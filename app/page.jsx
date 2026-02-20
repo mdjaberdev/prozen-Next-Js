@@ -1,3 +1,4 @@
+import About from "./layouts/About";
 import Banner from "./layouts/Banner";
 import Service from "./layouts/Service";
 
@@ -7,6 +8,7 @@ export default function Home() {
     <div>
       <Banner/>
       <Service/>
+      <About/>
     </div>
   );
 }
