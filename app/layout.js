@@ -1,4 +1,4 @@
-import { Poppins } from "next/font/google";
+import { Oswald, Poppins } from "next/font/google";
 import "./globals.css";
 import Header from "./layouts/Header";
 import Footer from "./layouts/Footer";
@@ -6,7 +6,12 @@ import Footer from "./layouts/Footer";
 const poppins = Poppins({
   subsets: ["latin"],
   variable: "--font-poppins",
-  weight: ["400", "500", "600", "700", "800"],
+  weight: ["400", "500", "600", "700"],
+});
+const oswald = Oswald({
+  subsets: ["latin"],
+  variable: "--font-oswald",
+  weight: ["400", "500", "600", "700"],
 });
 
 export const metadata = {
@@ -21,7 +26,7 @@ export default function RootLayout({ children }) {
         2. font-poppins: Applies the Tailwind font utility
         3. antialiased: Makes fonts look smoother
       */}
-      <body className={`${poppins.variable} antialiased`}>
+      <body className={`${poppins.variable} ${oswald.variable} antialiased`}>
         <Header />
         {/* It is good practice to wrap main content in a main tag */}
         <main>{children}</main>
