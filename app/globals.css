@@ -1,7 +1,7 @@
 
 @import "tailwindcss";
 
-@theme {
+@theme inline {
     --font-poppins : var(--font-poppins);
     --font-Oswald : var(--font-oswald);
 }

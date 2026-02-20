@@ -1,4 +1,3 @@
-
 "use client";
 import Image from "next/image";
 import React from "react";
@@ -13,9 +12,10 @@ const Banner = () => {
       <Container>
         <Flex className={"justify-between"}>
           <div className="">
-            <h1 className="text-white text-[70px] uppercase font-semibold font-poppins w-130 leading-20">
-              Innovative <span className="text-[#C3DF94]">business</span>{" "}
-              solutions for everyone
+            <h1 className="text-white text-[70px] uppercase font-semibold font-Oswald w-100 leading-20 -tracking-[2px]">
+              Innovative <span className="text-[#C3DF94]">business <br /></span>
+              solutions 
+              for everyone
             </h1>
             <p className="text-[20px] text-white w-140 leading-6.5 mt-5">
               Our team prioritizes usability and accessibility to ensure that
@@ -47,7 +47,8 @@ const Banner = () => {
                   duration={5}
                   useEasing={false}
                   decimals={1}
-                />k
+                />
+                k
               </h3>
               <p className="text-sm opacity-80">Happy clients worldwide</p>
             </div>
