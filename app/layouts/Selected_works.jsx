@@ -18,7 +18,6 @@ const Selected_works = () => {
       <Container className={"pb-32.5"}>
         <div className="font-bold font-Oswald uppercase">
           <h4 className="text-[#F75709] text-base">Selected Works</h4>
-
           <Flex className={"justify-between items-center"}>
             <h3 className="text-[#063231] text-[60px] w-95 leading-16.5 -tracking-[1.2px]">
               Our complete project list
@@ -32,7 +31,6 @@ const Selected_works = () => {
               >
                 <FaAngleLeft />
               </button>
-
               <button
                 ref={nextRef}
                 className="p-3 text-3xl hover:bg-[#F75709] rounded-full hover:text-white border"
@@ -42,8 +40,7 @@ const Selected_works = () => {
             </div>
           </Flex>
         </div>
-
-        {/* Swiper */}
+        {/* Swiper slider*/}
         <Swiper
           modules={[Navigation]}
           spaceBetween={30}
