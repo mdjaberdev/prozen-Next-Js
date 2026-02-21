@@ -39,7 +39,7 @@ const About = () => {
         </Flex>
         {/* Counter Part  */}
         <div className="w-324 bg-[#F5F7F7] py-7.5 px-22.5 mb-32.5 flex items-center justify-between">
-          <div className="text-center border-r pr-12.5">
+          <div className="text-center border-r border-[#D7DEDE] pr-12.5">
             <h3 className="text-[#063231] text-[80px] font-bold font-Oswald">
               <CountUp end={8} duration={5} useEasing={false} />K
               <span className="text-[#F75709]">+</span>
@@ -51,7 +51,7 @@ const About = () => {
               Creating the successful path
             </p>
           </div>
-          <div className="text-center  border-r pr-12.5">
+          <div className="text-center  border-r border-[#D7DEDE] pr-12.5">
             <h3 className="text-[#063231] text-[80px] font-bold font-Oswald">
               <CountUp end={340} duration={5} useEasing={false} />
               <span className="text-[#F75709]">+</span>
