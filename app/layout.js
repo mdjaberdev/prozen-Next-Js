@@ -23,13 +23,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      {/* 1. poppins.variable: Sets the CSS variable 
-        2. font-poppins: Applies the Tailwind font utility
-        3. antialiased: Makes fonts look smoother
-      */}
+    
       <body className={`${poppins.variable} ${oswald.variable} antialiased`}>
         <Header />
-        {/* It is good practice to wrap main content in a main tag */}
+       
         <main>{children}</main>
         <Footer />
       </body>
