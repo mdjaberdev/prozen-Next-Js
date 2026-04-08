@@ -15,7 +15,7 @@ export default function Home() {
       <Selected_works/>
       <Workingprocess/>
       <OurteamMember/>
-      {/* <Tastmonial/> */}
+      <Tastmonial/>
     </div>
   );
 }
