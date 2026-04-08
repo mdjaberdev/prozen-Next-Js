@@ -47,8 +47,8 @@ const Header = () => {
                 <Image
                   src="/logo.png"
                   alt="Picture of the author"
-                  width={200}
-                  height={200}
+                  width={131}
+                  height={33}
                 />
               </div>
               {/* Menu */}
